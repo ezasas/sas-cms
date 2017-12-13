@@ -1,0 +1,91 @@
+/*------------------------------------------*/
+/*	    Custom Fonts
+/*------------------------------------------*/
+@font-face {
+	  font-family: 'Open Sans';
+	  font-style: normal;
+	  font-weight: 300;
+	  src: local('Open Sans Light'), local('OpenSans-Light'), url(../fonts/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Open Sans'), local('OpenSans'), url(../fonts/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+
+/*------------------------------------------*/
+/*	    Widget
+/*------------------------------------------*/
+.box-header .widget-header {
+	border-bottom: 1px solid #ddd;
+	position: relative;
+	padding-bottom: 10px;
+	margin-bottom: -10px;
+}
+.box-header .widget-header:before,
+.box-header .widget-header:after {
+	content: "";
+	display: table;
+	line-height: 0;
+}
+.box-header .widget-header:after {
+	clear: right;
+}
+.box-header .widget-header > .widget-title, .box-header .widget-header > .widget-toolbar {
+	display: inline-block;
+}
+.box-header .widget-header > .widget-title {
+	line-height: 30px;
+	margin: 0;
+	padding: 0;
+}
+.box-header .widget-toolbar {
+	float: right;
+	padding-left: 10px;
+	position: relative;
+}
+.widget-toolbar::before {
+	border-color: #d9d9d9;
+	border-image: none;
+	border-style: solid;
+	border-width: 0 1px 0 0;
+	bottom: 0;
+	content: "";
+	display: inline-block;
+	left: -1px;
+	position: absolute;
+	top: 0;
+}
+
+/*------------------------------------------*/
+/*	    Data Table
+/*------------------------------------------*/
+.dataTables_length label{font-weight: 200;}
+.display-box{display:inline-block;width:60px}
+.dataTables_filter.table-search {
+	text-align: right;
+}
+.dataTables_filter.table-search .form-group.has-feedback{
+	display: inline-block;
+}
+.table-search input[type="text"] {
+	padding-left: 10px;
+	padding-right: 30px;
+	font-size: 13px;
+	width: 150px;
+	
+   transition: all .25s ease-in-out;
+   -moz-transition: all .25s ease-in-out;
+   -webkit-transition: all .25s ease-in-out;
+}
+.table-search input[type="text"]:focus {width: 200px;}
+.table-search .icon-search{color: #ccc;}
+
+.dataTable > thead > tr > th label{
+	display: inline;
+}
+
+
+.table-bottom .btn{margin-right:5px;}
+.table-bottom .btn .fa{margin-right:5px;}

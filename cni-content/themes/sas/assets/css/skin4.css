@@ -1,0 +1,166 @@
+/* Navbar */
+.navbar-nav > li.active::before,
+.navbar-nav > li.active:hover::before,
+.navbar-nav > li:hover::before{
+	border-color: #009688;
+}
+.navbar-nav > li.active:after{	
+	border-bottom: 3px solid #009688;
+}
+.navbar-default .navbar-nav > li:hover > a, .navbar-default .navbar-nav > li > a.active {
+	color: #009688;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+	color: #009688;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+	color: #009688;
+}
+.navbar-nav > li > .dropdown-menu a:hover{ color: #009688 !important; }
+
+/* Slider */
+#slider{ background: #009688 }
+
+/* Slider */
+.page-banner{ background: #009688 }
+
+/* Latest post */
+.latest-posts-classic .left-meta-post .post-type i {
+	background-color: #009688;
+}
+.latest-posts-classic .post-title a:hover {
+	color: #009688;
+}
+.latest-posts-classic .read-more {
+	color: #009688;
+}
+.classic-title span {
+  border-bottom-color: #009688;
+}
+/* Page Nav */
+.page-nav a:hover,.page-nav .active a,.page-nav .current{ background: #009688; border-color: #009688; }
+
+/* icon */
+.icon-small {
+	text-shadow: 0 0 0 #009688;
+}
+.icon-small:hover, .service-box:hover .icon-small {
+	color: #009688;
+}
+.icon-medium {
+	text-shadow: 0 0 0 #009688;
+}
+.icon-medium:hover, .service-box:hover .icon-medium {
+	color: #009688;
+}
+.icon-large {
+	text-shadow: 0 0 0 #009688;
+}
+.icon-large:hover, .service-box:hover .icon-large {
+	color: #009688;
+}
+.icon-effect-1 {
+	box-shadow: 0 0 0 3px #009688;
+	-o-box-shadow: 0 0 0 3px #009688;
+	-moz-box-shadow: 0 0 0 3px #009688;
+  	-webkit-box-shadow: 0 0 0 3px #009688;
+}
+.icon-effect-1:after {
+	background-color: #009688;
+}
+.icon-effect-1:hover, .service-box:hover .icon-effect-1 {
+	color: #009688;
+}
+.icon-effect-2 {
+	color: #009688;
+	box-shadow: 0 0 0 3px #009688;
+	-o-box-shadow: 0 0 0 3px #009688;
+	-moz-box-shadow: 0 0 0 3px #009688;
+  	-webkit-box-shadow: 0 0 0 3px #009688;
+}
+.icon-effect-2:after {
+	background-color: #009688;
+}
+.icon-effect-3 {
+	color: #009688;
+	box-shadow: 0 0 0 3px #009688;
+	-o-box-shadow: 0 0 0 3px #009688;
+	-moz-box-shadow: 0 0 0 3px #009688;
+  	-webkit-box-shadow: 0 0 0 3px #009688;
+}
+.icon-effect-4 {
+	color: #009688;
+	box-shadow: 0 0 0 3px #009688;
+	-o-box-shadow: 0 0 0 3px #009688;
+	-moz-box-shadow: 0 0 0 3px #009688;
+  	-webkit-box-shadow: 0 0 0 3px #009688;
+}
+.icon-effect-5 {
+	color: #009688;
+	box-shadow: 0 0 0 3px #009688;
+	-o-box-shadow: 0 0 0 3px #009688;
+	-moz-box-shadow: 0 0 0 3px #009688;
+  	-webkit-box-shadow: 0 0 0 3px #009688;
+}
+.icon-effect-6 {
+	color: #009688;
+	box-shadow: 0 0 0 3px #009688;
+	-o-box-shadow: 0 0 0 3px #009688;
+	-moz-box-shadow: 0 0 0 3px #009688;
+  	-webkit-box-shadow: 0 0 0 3px #009688;
+}
+
+/* portfolio */
+.portfolio-item-content {
+    background: rgba(0, 150, 36, 0.9);
+}
+
+/* sidebar */
+.search-btn {
+    background: #009688;
+}
+.sidebar .widget h4 .head-line {
+	background-color: #009688;
+}
+.sidebar .tagcloud a:hover{
+	background-color: #009688;
+}
+
+/* custom carousel button */
+.touch-carousel .owl-controls.clickable .owl-buttons div:hover {
+	background-color: #009688;
+}
+
+/* Form */
+.form-control:active, .form-control:focus{
+	border-color: rgba(0, 150, 36, 0.3);
+}
+
+/* switcher */
+.switcher-box .open-switcher:hover,
+.switcher-box.show .open-switcher{
+	color: #009688;
+}
+
+/* Back to top */
+.back-to-top:hover i {
+    background-color: #009688;
+}
+
+
+.background-opacity{
+    background: rgba(0, 150, 36, 0.5);
+}
+
+/* Button */
+.btn-default{
+	background: #009688;
+	border-color: #009688;
+}
+.btn-default:hover,
+.btn-default:focus{
+	background: #00897b;
+	border-color: #00897b;
+}
+a{color: #009688}
+a:hover,a:focus{color: #00897b}
