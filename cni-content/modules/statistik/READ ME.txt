@@ -1,0 +1,35 @@
+install statistik module di cni-admin/modules.html
+
+/* Add reqiured class */
+copy file ke (modulePath.'statistik/stats.php', systemPath.'stats.php');
+
+/* Add reqiured Plugins */
+copy file ke (modulePath.'statistik/analytics', systemPath.'plugins/analytics');
+
+/* Add js */
+copy file ke (modulePath.'statistik/flot', cni-admin/themes/ace/assets/js/flot');
+
+/* load di cni-admin footer */
+cni-admin/themes/ace/footer.php
+<!--
+Required for statitik function
+-->
+<script src="<?=$this->themeURL()?>assets/js/flot/jquery.flot.js"></script>
+<script src="<?=$this->themeURL()?>assets/js/flot/jquery.flot.pie.js"></script>
+<script src="<?=$this->themeURL()?>assets/js/flot/jquery.flot.resize.js"></script>
+<!--
+End of Required for statitik function
+-->		
+
+/* load class di file cni-system load.php */
+require(systemPath.'stats.php');
+require(systemPath.'plugins/analytics/class.visitorTracking.php');
+
+/* Load statistic class on systemPath.'system.php */
+$this->stats		= new stats();
+
+Only run on newest(ask the owner) CMS
+
+
+untuk tracking visitors place this code in footer in front end website
+<?php $visitors = new visitorTracking(); ?>
